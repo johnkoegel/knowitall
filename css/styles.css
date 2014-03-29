@@ -64,16 +64,6 @@ body {
     border-bottom: solid 1px #666;
 }
 
-.scroll {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    position: absolute;
-    top: 84px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-}
-
 input[type="search"] {
     width:100%;
 	border: none;
@@ -152,6 +142,11 @@ li>a * {
     pointer-events: none;
 }
 
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
+
 .button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -190,6 +185,16 @@ h2 {
     font-weight: normal;
     padding: 0px;
     margin: 0px;
+}
+
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 84px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .employee-image {
